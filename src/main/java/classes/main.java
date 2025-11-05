@@ -18,8 +18,6 @@ public class main {
             database bd = new database();
             bd.inicialize();
             Pokemon pikachu = bd.buscaPokemon("Diglett");
-            
-          
             System.out.println(pikachu.getEvoluiPara().getNome());
             
         }
